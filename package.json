@@ -1,0 +1,21 @@
+{
+  "name": "build",
+  "version": "1.0.0",
+  "description": "test build process for minima with different libs",
+  "source": "src/index.html",
+  "proxy": "http://localhost:8090",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "author": "eliasnemr",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.6.0"
+  },
+  "dependencies": {
+    "@minima-global/mds-api": "latest",
+    "http-proxy-middleware": "^2.0.6"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
